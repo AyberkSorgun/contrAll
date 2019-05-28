@@ -10,20 +10,121 @@
 		00CAA264222A7D630054ADDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CAA263222A7D630054ADDE /* AppDelegate.swift */; };
 		00CAA266222A7D630054ADDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CAA265222A7D630054ADDE /* ViewController.swift */; };
 		00CAA269222A7D630054ADDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CAA267222A7D630054ADDE /* Main.storyboard */; };
-		00CAA26C222A7D630054ADDE /* contrAll.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00CAA26A222A7D630054ADDE /* contrAll.xcdatamodeld */; };
 		00CAA26E222A7D650054ADDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00CAA26D222A7D650054ADDE /* Assets.xcassets */; };
 		00CAA271222A7D650054ADDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CAA26F222A7D650054ADDE /* LaunchScreen.storyboard */; };
+		00CAA27E222A7DB70054ADDE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CAA27C222A7DB70054ADDE /* Interface.storyboard */; };
+		00CAA280222A7DB80054ADDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00CAA27F222A7DB80054ADDE /* Assets.xcassets */; };
+		00CAA287222A7DB80054ADDE /* contrAllWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 00CAA286222A7DB80054ADDE /* contrAllWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		00CAA28C222A7DB80054ADDE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CAA28B222A7DB80054ADDE /* InterfaceController.swift */; };
+		00CAA28E222A7DB80054ADDE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CAA28D222A7DB80054ADDE /* ExtensionDelegate.swift */; };
+		00CAA292222A7DB90054ADDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00CAA291222A7DB90054ADDE /* Assets.xcassets */; };
+		00CAA297222A7DB90054ADDE /* contrAllWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 00CAA27A222A7DB70054ADDE /* contrAllWatch.app */; };
+		00FE944F2285D935002A5425 /* cukubix.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00FE944E2285D935002A5425 /* cukubix.mlmodel */; };
+		00FE9483228E0238002A5425 /* 17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE9470228E0236002A5425 /* 17.mp3 */; };
+		00FE9484228E0238002A5425 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE9471228E0236002A5425 /* 4.mp3 */; };
+		00FE9485228E0238002A5425 /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE9472228E0237002A5425 /* 9.mp3 */; };
+		00FE9486228E0238002A5425 /* 10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE9473228E0237002A5425 /* 10.mp3 */; };
+		00FE9487228E0238002A5425 /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE9474228E0237002A5425 /* 5.mp3 */; };
+		00FE9488228E0238002A5425 /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE9475228E0237002A5425 /* 8.mp3 */; };
+		00FE9489228E0238002A5425 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE9476228E0237002A5425 /* 2.mp3 */; };
+		00FE948A228E0238002A5425 /* 14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE9477228E0237002A5425 /* 14.mp3 */; };
+		00FE948B228E0238002A5425 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE9478228E0237002A5425 /* 1.mp3 */; };
+		00FE948C228E0238002A5425 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE9479228E0237002A5425 /* 3.mp3 */; };
+		00FE948D228E0238002A5425 /* 15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE947A228E0237002A5425 /* 15.mp3 */; };
+		00FE948E228E0238002A5425 /* 16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE947B228E0237002A5425 /* 16.mp3 */; };
+		00FE948F228E0238002A5425 /* 18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE947C228E0237002A5425 /* 18.mp3 */; };
+		00FE9490228E0238002A5425 /* 19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE947D228E0237002A5425 /* 19.mp3 */; };
+		00FE9491228E0238002A5425 /* 11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE947E228E0237002A5425 /* 11.mp3 */; };
+		00FE9492228E0238002A5425 /* 12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE947F228E0237002A5425 /* 12.mp3 */; };
+		00FE9493228E0238002A5425 /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE9480228E0238002A5425 /* 7.mp3 */; };
+		00FE9494228E0238002A5425 /* 13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE9481228E0238002A5425 /* 13.mp3 */; };
+		00FE9495228E0238002A5425 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00FE9482228E0238002A5425 /* 6.mp3 */; };
+		A5D6C3EF223D2BC2000B2637 /* DataCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D6C3EE223D2BC2000B2637 /* DataCollector.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		00CAA288222A7DB80054ADDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00CAA258222A7D630054ADDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00CAA285222A7DB80054ADDE;
+			remoteInfo = "contrAllWatch Extension";
+		};
+		00CAA295222A7DB90054ADDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00CAA258222A7D630054ADDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00CAA279222A7DB70054ADDE;
+			remoteInfo = contrAllWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00CAA29B222A7DB90054ADDE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				00CAA287222A7DB80054ADDE /* contrAllWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CAA29F222A7DB90054ADDE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				00CAA297222A7DB90054ADDE /* contrAllWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		009B783122790AA9001AFD46 /* contrAll.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = contrAll.entitlements; sourceTree = "<group>"; };
+		009DBEF7226BC91500833ACE /* contrAllWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = contrAllWatch.entitlements; sourceTree = "<group>"; };
+		009DBEF8226BC92000833ACE /* contrAllWatch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "contrAllWatch Extension.entitlements"; sourceTree = "<group>"; };
 		00CAA260222A7D630054ADDE /* contrAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contrAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00CAA263222A7D630054ADDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00CAA265222A7D630054ADDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		00CAA268222A7D630054ADDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		00CAA26B222A7D630054ADDE /* contrAll.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = contrAll.xcdatamodel; sourceTree = "<group>"; };
 		00CAA26D222A7D650054ADDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00CAA270222A7D650054ADDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00CAA272222A7D650054ADDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CAA27A222A7DB70054ADDE /* contrAllWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contrAllWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CAA27D222A7DB70054ADDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		00CAA27F222A7DB80054ADDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00CAA281222A7DB80054ADDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CAA286222A7DB80054ADDE /* contrAllWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "contrAllWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CAA28B222A7DB80054ADDE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		00CAA28D222A7DB80054ADDE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		00CAA291222A7DB90054ADDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00CAA293222A7DB90054ADDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00FE944E2285D935002A5425 /* cukubix.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = cukubix.mlmodel; sourceTree = "<group>"; };
+		00FE9470228E0236002A5425 /* 17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 17.mp3; sourceTree = "<group>"; };
+		00FE9471228E0236002A5425 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		00FE9472228E0237002A5425 /* 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 9.mp3; sourceTree = "<group>"; };
+		00FE9473228E0237002A5425 /* 10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10.mp3; sourceTree = "<group>"; };
+		00FE9474228E0237002A5425 /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		00FE9475228E0237002A5425 /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8.mp3; sourceTree = "<group>"; };
+		00FE9476228E0237002A5425 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		00FE9477228E0237002A5425 /* 14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 14.mp3; sourceTree = "<group>"; };
+		00FE9478228E0237002A5425 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		00FE9479228E0237002A5425 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		00FE947A228E0237002A5425 /* 15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 15.mp3; sourceTree = "<group>"; };
+		00FE947B228E0237002A5425 /* 16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 16.mp3; sourceTree = "<group>"; };
+		00FE947C228E0237002A5425 /* 18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 18.mp3; sourceTree = "<group>"; };
+		00FE947D228E0237002A5425 /* 19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 19.mp3; sourceTree = "<group>"; };
+		00FE947E228E0237002A5425 /* 11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 11.mp3; sourceTree = "<group>"; };
+		00FE947F228E0237002A5425 /* 12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 12.mp3; sourceTree = "<group>"; };
+		00FE9480228E0238002A5425 /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7.mp3; sourceTree = "<group>"; };
+		00FE9481228E0238002A5425 /* 13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 13.mp3; sourceTree = "<group>"; };
+		00FE9482228E0238002A5425 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
+		A5D6C3EE223D2BC2000B2637 /* DataCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,13 +135,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00CAA283222A7DB80054ADDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00644FEF2279BDAA001DD207 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				00FE9478228E0237002A5425 /* 1.mp3 */,
+				00FE9476228E0237002A5425 /* 2.mp3 */,
+				00FE9479228E0237002A5425 /* 3.mp3 */,
+				00FE9471228E0236002A5425 /* 4.mp3 */,
+				00FE9474228E0237002A5425 /* 5.mp3 */,
+				00FE9482228E0238002A5425 /* 6.mp3 */,
+				00FE9480228E0238002A5425 /* 7.mp3 */,
+				00FE9475228E0237002A5425 /* 8.mp3 */,
+				00FE9472228E0237002A5425 /* 9.mp3 */,
+				00FE9473228E0237002A5425 /* 10.mp3 */,
+				00FE947E228E0237002A5425 /* 11.mp3 */,
+				00FE947F228E0237002A5425 /* 12.mp3 */,
+				00FE9481228E0238002A5425 /* 13.mp3 */,
+				00FE9477228E0237002A5425 /* 14.mp3 */,
+				00FE947A228E0237002A5425 /* 15.mp3 */,
+				00FE947B228E0237002A5425 /* 16.mp3 */,
+				00FE9470228E0236002A5425 /* 17.mp3 */,
+				00FE947C228E0237002A5425 /* 18.mp3 */,
+				00FE947D228E0237002A5425 /* 19.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		00CAA257222A7D630054ADDE = {
 			isa = PBXGroup;
 			children = (
 				00CAA262222A7D630054ADDE /* contrAll */,
+				00CAA27B222A7DB70054ADDE /* contrAllWatch */,
+				00CAA28A222A7DB80054ADDE /* contrAllWatch Extension */,
 				00CAA261222A7D630054ADDE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				00CAA260222A7D630054ADDE /* contrAll.app */,
+				00CAA27A222A7DB70054ADDE /* contrAllWatch.app */,
+				00CAA286222A7DB80054ADDE /* contrAllWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +194,41 @@
 		00CAA262222A7D630054ADDE /* contrAll */ = {
 			isa = PBXGroup;
 			children = (
+				00644FEF2279BDAA001DD207 /* Music */,
+				009B783122790AA9001AFD46 /* contrAll.entitlements */,
 				00CAA263222A7D630054ADDE /* AppDelegate.swift */,
 				00CAA265222A7D630054ADDE /* ViewController.swift */,
 				00CAA267222A7D630054ADDE /* Main.storyboard */,
 				00CAA26D222A7D650054ADDE /* Assets.xcassets */,
 				00CAA26F222A7D650054ADDE /* LaunchScreen.storyboard */,
 				00CAA272222A7D650054ADDE /* Info.plist */,
-				00CAA26A222A7D630054ADDE /* contrAll.xcdatamodeld */,
 			);
 			path = contrAll;
+			sourceTree = "<group>";
+		};
+		00CAA27B222A7DB70054ADDE /* contrAllWatch */ = {
+			isa = PBXGroup;
+			children = (
+				009DBEF7226BC91500833ACE /* contrAllWatch.entitlements */,
+				00CAA27C222A7DB70054ADDE /* Interface.storyboard */,
+				00CAA27F222A7DB80054ADDE /* Assets.xcassets */,
+				00CAA281222A7DB80054ADDE /* Info.plist */,
+			);
+			path = contrAllWatch;
+			sourceTree = "<group>";
+		};
+		00CAA28A222A7DB80054ADDE /* contrAllWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				009DBEF8226BC92000833ACE /* contrAllWatch Extension.entitlements */,
+				00CAA28B222A7DB80054ADDE /* InterfaceController.swift */,
+				00CAA28D222A7DB80054ADDE /* ExtensionDelegate.swift */,
+				00CAA291222A7DB90054ADDE /* Assets.xcassets */,
+				00CAA293222A7DB90054ADDE /* Info.plist */,
+				A5D6C3EE223D2BC2000B2637 /* DataCollector.swift */,
+				00FE944E2285D935002A5425 /* cukubix.mlmodel */,
+			);
+			path = "contrAllWatch Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +241,51 @@
 				00CAA25C222A7D630054ADDE /* Sources */,
 				00CAA25D222A7D630054ADDE /* Frameworks */,
 				00CAA25E222A7D630054ADDE /* Resources */,
+				00CAA29F222A7DB90054ADDE /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				00CAA296222A7DB90054ADDE /* PBXTargetDependency */,
 			);
 			name = contrAll;
 			productName = contrAll;
 			productReference = 00CAA260222A7D630054ADDE /* contrAll.app */;
 			productType = "com.apple.product-type.application";
+		};
+		00CAA279222A7DB70054ADDE /* contrAllWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CAA29C222A7DB90054ADDE /* Build configuration list for PBXNativeTarget "contrAllWatch" */;
+			buildPhases = (
+				00CAA278222A7DB70054ADDE /* Resources */,
+				00CAA29B222A7DB90054ADDE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00CAA289222A7DB80054ADDE /* PBXTargetDependency */,
+			);
+			name = contrAllWatch;
+			productName = contrAllWatch;
+			productReference = 00CAA27A222A7DB70054ADDE /* contrAllWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		00CAA285222A7DB80054ADDE /* contrAllWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CAA298222A7DB90054ADDE /* Build configuration list for PBXNativeTarget "contrAllWatch Extension" */;
+			buildPhases = (
+				00CAA282222A7DB80054ADDE /* Sources */,
+				00CAA283222A7DB80054ADDE /* Frameworks */,
+				00CAA284222A7DB80054ADDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "contrAllWatch Extension";
+			productName = "contrAllWatch Extension";
+			productReference = 00CAA286222A7DB80054ADDE /* contrAllWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +299,30 @@
 				TargetAttributes = {
 					00CAA25F222A7D630054ADDE = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					00CAA279222A7DB70054ADDE = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					00CAA285222A7DB80054ADDE = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -116,6 +340,8 @@
 			projectRoot = "";
 			targets = (
 				00CAA25F222A7D630054ADDE /* contrAll */,
+				00CAA279222A7DB70054ADDE /* contrAllWatch */,
+				00CAA285222A7DB80054ADDE /* contrAllWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +351,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FE948B228E0238002A5425 /* 1.mp3 in Resources */,
+				00FE9487228E0238002A5425 /* 5.mp3 in Resources */,
+				00FE9493228E0238002A5425 /* 7.mp3 in Resources */,
+				00FE9485228E0238002A5425 /* 9.mp3 in Resources */,
+				00FE9492228E0238002A5425 /* 12.mp3 in Resources */,
+				00FE9483228E0238002A5425 /* 17.mp3 in Resources */,
+				00FE9491228E0238002A5425 /* 11.mp3 in Resources */,
+				00FE948D228E0238002A5425 /* 15.mp3 in Resources */,
+				00FE948E228E0238002A5425 /* 16.mp3 in Resources */,
 				00CAA271222A7D650054ADDE /* LaunchScreen.storyboard in Resources */,
+				00FE9490228E0238002A5425 /* 19.mp3 in Resources */,
+				00FE9495228E0238002A5425 /* 6.mp3 in Resources */,
 				00CAA26E222A7D650054ADDE /* Assets.xcassets in Resources */,
+				00FE9484228E0238002A5425 /* 4.mp3 in Resources */,
+				00FE948A228E0238002A5425 /* 14.mp3 in Resources */,
+				00FE9488228E0238002A5425 /* 8.mp3 in Resources */,
+				00FE9489228E0238002A5425 /* 2.mp3 in Resources */,
+				00FE9486228E0238002A5425 /* 10.mp3 in Resources */,
+				00FE9494228E0238002A5425 /* 13.mp3 in Resources */,
+				00FE948F228E0238002A5425 /* 18.mp3 in Resources */,
+				00FE948C228E0238002A5425 /* 3.mp3 in Resources */,
 				00CAA269222A7D630054ADDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CAA278222A7DB70054ADDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CAA280222A7DB80054ADDE /* Assets.xcassets in Resources */,
+				00CAA27E222A7DB70054ADDE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CAA284222A7DB80054ADDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CAA292222A7DB90054ADDE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,12 +401,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				00CAA266222A7D630054ADDE /* ViewController.swift in Sources */,
-				00CAA26C222A7D630054ADDE /* contrAll.xcdatamodeld in Sources */,
 				00CAA264222A7D630054ADDE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00CAA282222A7DB80054ADDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CAA28E222A7DB80054ADDE /* ExtensionDelegate.swift in Sources */,
+				00CAA28C222A7DB80054ADDE /* InterfaceController.swift in Sources */,
+				00FE944F2285D935002A5425 /* cukubix.mlmodel in Sources */,
+				A5D6C3EF223D2BC2000B2637 /* DataCollector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00CAA289222A7DB80054ADDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00CAA285222A7DB80054ADDE /* contrAllWatch Extension */;
+			targetProxy = 00CAA288222A7DB80054ADDE /* PBXContainerItemProxy */;
+		};
+		00CAA296222A7DB90054ADDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00CAA279222A7DB70054ADDE /* contrAllWatch */;
+			targetProxy = 00CAA295222A7DB90054ADDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		00CAA267222A7D630054ADDE /* Main.storyboard */ = {
@@ -161,6 +446,14 @@
 				00CAA270222A7D650054ADDE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00CAA27C222A7DB70054ADDE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00CAA27D222A7DB70054ADDE /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -289,6 +582,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B5B4UTYTPT;
 				INFOPLIST_FILE = contrAll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +601,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B5B4UTYTPT;
 				INFOPLIST_FILE = contrAll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +610,88 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00CAA299222A7DB90054ADDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5B4UTYTPT;
+				INFOPLIST_FILE = "contrAllWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = contrAll.contrAll.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		00CAA29A222A7DB90054ADDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5B4UTYTPT;
+				INFOPLIST_FILE = "contrAllWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = contrAll.contrAll.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		00CAA29D222A7DB90054ADDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5B4UTYTPT;
+				IBSC_MODULE = contrAllWatch_Extension;
+				INFOPLIST_FILE = contrAllWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = contrAll.contrAll.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		00CAA29E222A7DB90054ADDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5B4UTYTPT;
+				IBSC_MODULE = contrAllWatch_Extension;
+				INFOPLIST_FILE = contrAllWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = contrAll.contrAll.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};
@@ -339,20 +716,25 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-/* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		00CAA26A222A7D630054ADDE /* contrAll.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				00CAA26B222A7D630054ADDE /* contrAll.xcdatamodel */,
+		00CAA298222A7DB90054ADDE /* Build configuration list for PBXNativeTarget "contrAllWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CAA299222A7DB90054ADDE /* Debug */,
+				00CAA29A222A7DB90054ADDE /* Release */,
 			);
-			currentVersion = 00CAA26B222A7D630054ADDE /* contrAll.xcdatamodel */;
-			path = contrAll.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-/* End XCVersionGroup section */
+		00CAA29C222A7DB90054ADDE /* Build configuration list for PBXNativeTarget "contrAllWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CAA29D222A7DB90054ADDE /* Debug */,
+				00CAA29E222A7DB90054ADDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
 	};
 	rootObject = 00CAA258222A7D630054ADDE /* Project object */;
 }
